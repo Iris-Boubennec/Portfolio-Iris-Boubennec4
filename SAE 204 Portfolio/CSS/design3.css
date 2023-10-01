@@ -1,0 +1,214 @@
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #52AAAA;
+}
+
+.bouton_retour_a_accueil {
+    position: fixed;
+    font-size: 1.5rem;
+    float: right;
+    display: flex;
+    right: 0;
+    top: 45px;
+    margin-right: 85px;
+    color: rgb(255, 255, 255);
+    text-shadow: #52AAAA 1px 0 8px;
+    z-index: 1;
+    font-weight: 700;
+}
+
+.page1 {
+    background-color: #52AAAA;
+    height: 95%;
+}
+
+.titre_de_page {
+    position: relative;
+    margin-left: 60px;
+    color: white;
+    font-size: 65px;
+    font-family: 'PLayfair display', serif;
+    font-style: italic;
+}
+
+.box_texte1_2 {
+    display: flex;
+}
+
+.texte1_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.woonlight {
+    width: 480px;
+    margin-left: 100px;
+}
+
+.texte1 {
+    color: white;
+    font-size: 2rem;
+    width: 700px;
+    font-family: 'Playfair Display', serif;
+    margin-left: 100px;
+}
+
+.texte2 {
+    color: white;
+    font-size: 2rem;
+    width: 1300px;
+    font-family: 'Playfair Display', serif;
+    margin-left: 100px;
+    text-align: center;
+    height: 300px;
+}
+
+.images_fete_du_bruit {
+    display: flex;
+}
+
+.fete_du_bruit {
+    width: 800px;
+    height: 500px;
+    margin-left: 100px;
+}
+
+.affiche_fete_du_bruit {
+    width: 400px;
+    margin-left: 100px;
+}
+
+.texte3 {
+    color: white;
+    font-size: 2rem;
+    width: 800px;
+    font-family: 'Playfair Display', serif;
+    margin-left: 100px;
+    margin-top: -50px;
+    text-align: center;
+    height: 150px;
+}
+
+.ligne_blanche {
+    height: 2px;
+    width: 50%;
+    margin-left: 370px;
+    background-color: #ffffff;
+}
+
+.texte4 {
+    color: white;
+    font-size: 2rem;
+    width: 1500px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+
+.image_box {
+    display: flex;
+    margin-top: 50px;
+}
+
+.image_projet_dessin5 {
+    width: 400px;
+    margin-left: 100px;
+}
+
+.conteneur {
+    width: 600px;
+    margin: auto;
+}
+
+.d1 {
+    padding-top: 75%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation: fondu 15s ease-in-out infinite both;
+}
+
+.Experience_professionnelle {
+    color: white;
+    display: flex;
+    font-size: 62px;
+    margin-left: 100px;
+    font-family: 'PLayfair display', serif;
+    font-style: italic;
+}
+
+.box1 {
+    display: flex;
+}
+
+.barre {
+    width: 140px;
+    height: 730px;
+}
+
+.photo_iris_parcour {
+    width: 550px;
+    right: 25px;
+}
+
+.box_texte {
+    display: flex;
+}
+
+.block_texte {
+    color: white;
+    font-size: 2rem;
+    width: 800px;
+    margin-top: 90px;
+}
+
+.box_flèche {
+    text-align: center;
+}
+
+.flèche {
+    width: 200px;
+    overflow: hidden;
+    transform: translatey(0px);
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-20px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+}
+
+.vague {
+    width: 100%;
+}
+
+
+@keyframes fondu {
+    0% {
+        background-image: url("../HTML/IMG/image_projet_dessin1.jpg");
+    }
+
+    33.33% {
+        background-image: url("../HTML/IMG/image_projet_dessin2.jpg");
+    }
+
+    66.67% {
+        background-image: url("../HTML/IMG/image_projet_dessin3.jpg");
+    }
+
+    100% {
+        background-image: url("../HTML/IMG/image_projet_dessin4.jpg");
+    }
+}
